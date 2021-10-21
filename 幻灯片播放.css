@@ -1,0 +1,52 @@
+slides {
+    position: relative;
+    margin: auto;
+}
+
+.single {
+    /* position: relative;
+    margin: auto; */
+    display: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.number {
+    color: #bbb;
+    font-size: small;
+    padding: 10px, 12px;
+    position: absolute;
+    top: 0;
+}
+
+.text {
+    color: #bbb;
+    position: absolute;
+    bottom: 8px;
+    padding: 20px, 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.next,
+.pre {
+    cursor: pointer;
+    /* position: absolute; */
+    font-weight: bolder;
+    width: auto;
+    top: 50%;
+    font-size: 18px;
+    padding: 16px;
+    margin-top: -22px;
+    border-radius: 0 3px3px 0;
+    transition: 0.6 ease;
+}
